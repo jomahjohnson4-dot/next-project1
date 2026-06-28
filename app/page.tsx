@@ -1,5 +1,5 @@
 import React from 'react'
-import Data from './components/Data'
+import Data from '../components/Data'
 import { data2 } from '@/constants/data'
 
 

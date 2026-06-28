@@ -1,10 +1,11 @@
+import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import React from 'react'
 
 
-export default function NavTitle() {
+export default function NavTitle({className}:{className?:string}) {
   return (
-    <div className='flex gap-5'>
+    <div className={cn('flex gap-5',className)}>
         <Link href={'/'} className=''> Home</Link>
         <Link href={'/News'} className=''> News</Link>
         <Link href={'/Sports'} className=''> Sports</Link>

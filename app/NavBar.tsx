@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from './components/Logo'
-import NavTitle from './components/NavTitle'
-import Extra from './components/Extra'
+import Logo from '../components/Logo'
+import NavTitle from '../components/NavTitle'
+import Extra from '../components/Extra'
 
 
 export default function NavBar() {
